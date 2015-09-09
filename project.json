@@ -1,0 +1,22 @@
+{
+    "dependencies": {
+        "Microsoft.AspNet.Server.Kestrel": "1.0.0-beta7",
+        "Microsoft.AspNet.Owin": "1.0.0-beta7",
+        "Nancy": "1.2.0",
+        "Microsoft.AspNet.Authentication.Twitter":"1.0.0-beta7",
+        "Microsoft.AspNet.Authentication.Cookies": "1.0.0-beta7",
+        "Microsoft.Framework.Logging": "1.0.0-beta7",
+        "Microsoft.Framework.Logging.Console": "1.0.0-beta7",
+    },
+    "commands": {
+        "kestrel": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.Kestrel --server.urls http://localhost:5001"
+    },
+    "frameworks": {
+        "dnx451": {
+            "frameworkAssemblies": {
+                "System.Net.Http":"",
+                "System.Net.Http.Formatting":""
+            }
+        }
+    }
+}
